@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+span {
+  font-size: large;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+
+.select {
+  border: 2px solid white;
+  padding: 20px 20px 20px;
+}
+
+.select:hover {
+  background-color: gray;
+}
+.winning {
+  color: yellow;
+  font-size: x-large;
+}
+
+.restart {
+  color: red;
+  font-size: x-large;
+}
+
+.restart:hover {
+  color: brown;
+}
+#Turn {
+  color: gray;
+  font-size: x-large;
+}
+
+#Symbol {
+  color: red;
+  font-size: x-large;
+}
